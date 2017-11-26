@@ -20,7 +20,7 @@ GPIO.output(26,1)#turn on
 k = 'n'
 
 while 1:
-    k=ser.readline()
+    
     if ser.readline() == 'G':
         k = 'n'
         GPIO.output(5,0)
