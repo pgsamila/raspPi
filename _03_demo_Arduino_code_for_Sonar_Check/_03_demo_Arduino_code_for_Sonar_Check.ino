@@ -18,9 +18,8 @@ void setup() {
 }
 
 void loop() {
-  while (Serial.available()) {
+  while (true) {
     // starts the program here
-    char inChar = (char)Serial.read();
     distance = Check_Sonar_reading();
 
     if (distance >= 100) {
@@ -32,10 +31,9 @@ void loop() {
       digitalWrite(RED, HIGH);
       Serial.println("R");
     }
-
+    delay(500);
   }
   //waite for the signal from Pi
-  delay(100);
 }
 
 long Check_Sonar_reading() {
