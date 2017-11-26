@@ -41,13 +41,6 @@ while 1:
         #close the camera
         cap.release()
 
-    
-
-    
-
-if(k == 'G')
-    
-
 
 #close all windows open by the script
 cv2.distroyAllWindows()
