@@ -18,6 +18,11 @@ void setup() {
 }
 
 void loop() {
+  while (true){
+    if (Serial.available()){
+      break;
+      }
+    }
   while (true) {
     // starts the program here
     distance = Check_Sonar_reading();
