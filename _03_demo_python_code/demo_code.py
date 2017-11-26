@@ -16,7 +16,7 @@ cap = cv2.VideoCapture(0)
 #GPIO.output(5,0) #turn off
 #GPIO.output(26,1)#turn on
 
-#ser.write('1')
+ser.write('1')
 #k = 'n'
 
 while 1:
