@@ -17,17 +17,17 @@ GPIO.output(5,0) #turn off
 GPIO.output(26,1)#turn on
 
 ser.write('1')
-k = n
+k = 'n'
 
 while 1:
     k=ser.readline()
     if k == 'G':
-        k = n
+        k = 'n'
         GPIO.output(5,0)
         GPIO.output(26,1)
     
     if k == 'R':
-        k = n
+        k = 'n'
         GPIO.output(5,1)
         GPIO.output(26,0)
         #open the camera
