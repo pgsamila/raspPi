@@ -22,15 +22,14 @@ cap = cv2.VideoCapture(0)
 while 1:
     
     if ser.readline() == 'G':
-        #k = 'n'
+        k = 'n'
         #GPIO.output(5,0)
         #GPIO.output(26,1)
     else:
-        #k = 'n'
+        k = 'n'
         #GPIO.output(5,1)
         #GPIO.output(26,0)
         #open the camera
-        
         #read camera data
         ret, frame = cap.read()
         #convert to gray image
