@@ -21,12 +21,12 @@ k = n
 
 while 1:
     k=ser.readline()
-    if(k == 'G'):
+    ifk == 'G':
         k = n
         GPIO.output(5,0)
         GPIO.output(26,1)
     
-    if(k == 'R'):
+    if k == 'R':
         k = n
         GPIO.output(5,1)
         GPIO.output(26,0)
