@@ -35,7 +35,7 @@ while 1:
         #convert to gray image
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         #view image on a window
-        cv2.imshow('gray',gray)
+        cv2.imshow('gray',frame)
         #close the camera
         cap.release()
 
