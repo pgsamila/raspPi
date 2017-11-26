@@ -10,7 +10,7 @@ import RPi.GPIO as GPIO
 ser = serial.Serial('/dev/ttyACM0', 9600)
 GPIO.setmode(GPIO.BCM) 
 GPIO.setup(5,GPIO.OUT)  #set output pin 5
-GPIO.setup(26.GPIO.OUT) #set output pin 26
+GPIO.setup(26,GPIO.OUT) #set output pin 26
 
 #turn on/off bulbs
 GPIO.output(5,0) #turn off
