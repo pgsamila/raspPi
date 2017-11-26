@@ -1,7 +1,7 @@
 #define ECHO_PIN  2
 #define TRIG_PIN  4
-#define GREEN     46
-#define RED       44
+#define GREEN     11
+#define RED       10
 
 long duration, distance;
 int dist = 200;
